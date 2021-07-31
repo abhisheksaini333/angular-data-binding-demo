@@ -1,0 +1,8 @@
+
+<div class="userClass" *ngIf="user">
+    <h3>User Name : {{ user.name }}</h3>
+    <h3>Course : {{ user.course }}</h3>
+    <h3>Modules : {{ user.modules }}</h3>
+    <h3>Active : {{ user.isActive }}</h3>
+    <button (click)="buttonClicked()">Emit Change</button>
+</div>
